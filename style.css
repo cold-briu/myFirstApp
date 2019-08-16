@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+    background-color: black;
+    font-family: Helvetica;
+}
+
+header{
+    color:white;
+    text-align: center;
+}
+main{
+    padding: 5%;
+}
+.diferente{
+    margin: 0 auto;
+    background-color: white;
+    min-height: 70vh;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 100;
+}
