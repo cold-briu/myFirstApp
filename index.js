@@ -8,9 +8,10 @@ const incrementar = (tope) => {
     let output = 0;
     while (output < tope) {
         output++
-        console.log("edad es", output);
+        console.log("loop es", output);
     }
-    return output
+    return output == tope ? console.log(`La edad de ${name} es ${output}`) : false
+
 }
 
 const age = incrementar(20)
